@@ -1,0 +1,18 @@
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+body { 
+  margin: 0; 
+  
+}
+
+canvas { 
+  display: block; 
+}
+
+.color-box {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  left: 5px;
+  top: 5px;
+}
