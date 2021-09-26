@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="static/styles/main.css">
+    <title>Mars Rover</title>
+  </head>
+  <body>
+    <div style="width: 100%; overflow: hidden;">
+            <div style="width: 260px; float: left;">
+                <h4>Enter co-ordinates for the viewpoints</h4>
+                <br/><br/>
+                <table style="padding: 10px;">
+                    <tr>
+                        <td><label for="x">x:</label></td>
+                        <td><input type="text" id="x" name="x" value="0"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="y">y:</label></td>
+                        <td><input type="text" id="y" name="y"  value="0"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="z">z:</label></td>
+                        <td><input type="text" id="z" name="z"  value="0"></td>
+                    </tr>
+                    <tr>
+                        <td colspan= "2" style="padding: 20px;">
+                            <input type="button" value="Submit" id="submit">
+                            <input type="button" value="Default View" id="goToDefault">
+                            <input type="button" value="Reset" id="reset">
+                        </td>
+                    </tr>
+
+                </table>
+                <table id="viewPointDetails" style="padding: 20px;"></table>
+            </div>
+        <div style="width: 600px; float: left;">
+            <canvas class="webgl" width="80%" id="canvasColor"></canvas>
+        </div>
+      </div>
+
+    <script src="public/bundle.js"></script>
+  </body>
+</html>
