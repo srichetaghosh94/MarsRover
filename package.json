@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "start": "webpack-dev-server --mode development",
-    "format": "prettier --write '**/*.js'"
+    "start": "webpack-dev-server --mode development"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +14,6 @@
     "three": "^0.115.0"
   },
   "devDependencies": {
-    "prettier": "^2.0.4",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"
